@@ -1,0 +1,33 @@
+body{
+	margin: auto;
+}
+
+#total-survey{
+	background-color: lightgrey;
+    width: 800px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+#title{
+	text-align: center;
+	color: green;
+}
+
+
+	.button:hover {
+    background-color: green; /* Green */
+    color: white;
+}
+
+#description {
+	color: green;
+}
+
+#survey-form {
+	font-family: Helvicta;
+	font-weight: bold;
+}
+

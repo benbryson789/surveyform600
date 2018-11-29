@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>Survey Form</title>
+<link rel="stylesheet" type="text/css" href="survey.css">
+<body>
+
+
+<h1 id="title">Survey Form</h1>
+
+<div id="total-survey">
+
+<div>
+<p id="description">Let us know how we can improve customer service for Zakoria's Perfumes</p>
+
+<form action ="http://www.wikipedia.org">
+
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" placeholder="name" required><br>
+
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email" email="email" placeholder="email" required><br>
+
+  <label for="age">Age</label>
+  &nbsp;&nbsp;&nbsp;<input type="number" id="age" name="age"  placeholder="age"  min="18" max="150" required/><br><br><br>
+  <button id="submit" type="submit">Submit Comment</button>
+  <input type="reset">
+
+  
+ 
+</form><br><br><br>
+</div>
+
+
+
+<div>
+<form id="dropdown">
+Select your Perfume
+  <select name="perfumes">
+    <option value="Chanel">Chanel</option>
+    <option value="White Diamonds">White Diamonds</option>
+    <option value="Jean Nate">Jean Nate</option>
+    <option value="Dolce">Dolce</option>
+  </select>
+  <br><br>
+ </form>
+</div><br><br>
+
+<div style="text-align:left;width:100px;margin:auto;">
+<form>
+	How would you rate our customer service?<br><br>
+  <input type="radio" name="quality" value="Excellent" style="text-align: left;">Excellent<br>
+  <input type="radio" name="quality" value="Average" style="text-align: left;">Average<br>
+  <input  type="radio" name="quality" value="Poor" style="text-align: left;">Poor<br><br>
+  
+  Would you recommend the company to a friend?<br><br>
+  <input type="checkbox" name="question" value="response">Yes
+<br>
+<input type="checkbox" name="question" value="response">No 
+<br><br>
+
+  <label for="comments">Comments</label>
+  <input type="text" id="comments" comments="comments" placeholder="comments">
+
+  <br><br>
+</form>
+</div>
+<br><br>
+
+
+
+<div>
+
+What did you like most about the Perfumes?
+  <select name="quality">
+    <option value="Scent">Scent</option>
+    <option value="Length of time on skin">Time Duration of Perfume on Skin</option>
+    <option value="Lenght of time before  it turns">How Long can I keep my perfume before it turns?</option>
+    
+  </select>
+  <br><br>
+ 
+</div><br><br>
+
+<div>	
+  <form>
+  How can we improve in the future?<br><br>
+  <input type="checkbox" name="vehicle" value="attribute"> Would recommend this company to a friend or colleague<br><br>
+  <input type="checkbox" name="vehicle" value="attribute" checked> Would not recommend this company to a friend or colleage<br><br>
+ </form>
+</div><br><br>
+
+<div>
+<form>
+Any comments or suggestions?
+<textarea rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+</form>
+</div><br><br>
+
+
+
+
+</body>
+</html>
